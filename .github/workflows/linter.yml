@@ -1,4 +1,4 @@
-name: 'Lint Code'
+name: Lint Code
 
 on:
   push:
@@ -6,11 +6,11 @@ on:
   pull_request:
     branches: [master, main]
 
-jobs: # list of things to do
+jobs:
   lint_function_js:
     name: Linting JavaScript Function 
     runs-on: ubuntu-latest 
-    steps: # list of steps
+    steps:
       - name: Install NodeJS
         uses: actions/setup-node@v3
         with:
