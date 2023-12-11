@@ -6,6 +6,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
     <body>
-    <!--Add a registration form here -->
+        <div class="container">
+            <div class="mt-5">
+                <h2 class="text-center mb-4">Signup</h2>
+        
+                <form class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" required>
+                        <div class="invalid-feedback">
+                            Please enter your first name.
+                        </div>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                        <div class="invalid-feedback">
+                            Please enter your last name.
+                        </div>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" required>
+                        <div class="invalid-feedback">
+                            Please choose a username.
+                        </div>
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                        <div class="invalid-feedback">
+                            Please enter a password.
+                        </div>
+                    </div>
+        
+                    <button class="btn btn-primary" type="submit">Signup</button>
+                </form>
+            </div>
+        </div>
     </body>
 </html>
